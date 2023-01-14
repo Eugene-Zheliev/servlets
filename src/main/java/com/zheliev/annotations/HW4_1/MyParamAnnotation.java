@@ -1,8 +1,10 @@
-package com.zheliev.annotations.HW4_3;
+package com.zheliev.annotations.HW4_1;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
 @Retention(RetentionPolicy.RUNTIME)
-public @interface Save {
+public @interface MyParamAnnotation {
+    int a();
+    int b();
 }
